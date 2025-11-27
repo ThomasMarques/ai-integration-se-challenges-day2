@@ -1,6 +1,8 @@
-from fastapi.testclient import TestClient
-from ..main import app
 import json
+
+from fastapi.testclient import TestClient
+
+from ..main import app
 
 # Initialize a FastAPI client
 client = TestClient(app)

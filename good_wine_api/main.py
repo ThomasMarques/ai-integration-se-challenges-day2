@@ -1,9 +1,10 @@
+import json
+from pathlib import Path
+
+import numpy as np
 from fastapi import FastAPI
 from joblib import load
 from pydantic import BaseModel
-import numpy as np
-import json
-from pathlib import Path
 
 # load model
 clf = load(Path(__file__).parent / "lrfull.joblib")
