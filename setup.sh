@@ -1,0 +1,1 @@
+uv run uvicorn --workers 4 good_wine_api.main:app
