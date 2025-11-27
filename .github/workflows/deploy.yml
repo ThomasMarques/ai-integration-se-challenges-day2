@@ -9,6 +9,7 @@ on:
     branches:
       - main
   workflow_dispatch:
+    environment: 'Production'
 
 jobs:
   build:
@@ -60,4 +61,4 @@ jobs:
         with:
           app-name: 'goodwineapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.__publishingprofilesecretname__ }}
+          publish-profile: ${{ secrets.PUBLISHING_PROFILE_SECRET_NAME }}
