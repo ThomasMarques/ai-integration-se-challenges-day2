@@ -61,4 +61,3 @@ jobs:
           app-name: 'goodwineapi'
           slot-name: 'Production'
           publish-profile: ${{ secrets.PUBLISHING_PROFILE_SECRET_NAME }}
-          startup-command: bash setup.sh
