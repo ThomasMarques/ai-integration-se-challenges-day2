@@ -1,1 +1,1 @@
-.venv/bin/uvicorn --workers 4 good_wine_api.main:app
+venv/bin/uvicorn --workers 4 good_wine_api.main:app
